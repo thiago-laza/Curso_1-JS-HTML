@@ -1,0 +1,25 @@
+<script>
+    function pulaLinha(){
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(msg){
+        document.write(msg);
+        pulaLinha;
+    }
+
+    var chute = parseInt(prompt("Informe seu chute: "));
+
+    function sorteia(n){
+        return Math.round(Math.random()*10);
+    }
+
+    var numeroSorteado = sorteia(chute);
+
+    if (chute == numeroSorteado){
+        mostra("Você acertou " + numeroSorteado);
+    }else{
+        mostra("Você errou, o número sorteado foi: " + numeroSorteado);
+    }
+</script>

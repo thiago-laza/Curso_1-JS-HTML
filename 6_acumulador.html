@@ -1,0 +1,29 @@
+<script>
+
+    function pulaLinha(){
+        document.write("<br>");
+        document.write("<br>");
+    }
+    function mostra(msg){
+    
+        document.write(msg);
+        pulaLinha();
+    }	
+    
+    var provas = parseInt(prompt("Informe o número de provas:"));
+    
+    cont = 1;
+    acu = 0;
+    
+    while (cont<=provas){
+        var notas = parseInt(prompt("Informe a nota " + cont));
+        acu = acu + notas;
+        cont++;
+    }
+     
+    var media = acu/provas;
+    
+    mostra("Sua média nessas " + provas + " provas foi igual a " + media);
+    
+    
+    </script>

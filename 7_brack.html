@@ -1,0 +1,29 @@
+<script>
+
+    function pulaLinha(){
+        document.write("<br>");
+        document.write("<br>");
+    }
+    function mostra(msg){
+    
+        document.write(msg);
+        pulaLinha();
+    }	
+    
+    var nome = "thiago";
+    
+    cont =1;
+    
+    while (cont<=3){
+        var login = prompt("Digite seu nome:");
+        cont++;
+        if (login==nome){
+            mostra("Acesso permitido")
+            break;
+        }else{
+            mostra("Tente novamente");
+        }
+    }
+    mostra("FIM");
+    
+    </script>

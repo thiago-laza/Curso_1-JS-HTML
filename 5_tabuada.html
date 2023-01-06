@@ -1,0 +1,20 @@
+<script>
+
+    function pulaLinha(){
+        document.write("<br>");
+        document.write("<br>");
+    }
+    function mostra(msg){
+    
+        document.write(msg);
+        pulaLinha();
+    }	
+    
+    var tabuada = parseInt(prompt("Você quer saber a tabuada de qual número?"));
+    
+    for (var numero = 1; numero <=10;numero = numero + 1){
+        mostra (tabuada * numero);
+        
+    }
+    
+    </script>

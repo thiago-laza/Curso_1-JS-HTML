@@ -1,0 +1,23 @@
+<script>
+    function pulaLinha(){
+        document.write("<br>");
+        document.write("<br>")
+    }
+
+    function mostra(msg){
+        document.write(msg)
+        pulaLinha;
+    }
+
+    var nota_1 = parseInt(prompt("Informe a primeira nota: "))
+    var nota_2 = parseInt(prompt("Informe a segunda nota:  "))
+    var nota_3 = parseInt(prompt("Informe a terceira nota: "))
+
+    function media(n1,n2,n3){
+        return Math.round((n1+n2+n3)/3);
+    }
+
+    var mediaCalculada = media(nota_1,nota_2,nota_3);
+
+    mostra(mediaCalculada)
+</script>

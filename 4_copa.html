@@ -1,0 +1,23 @@
+<script>
+
+    function pulaLinha(){
+        document.write("<br>");
+        document.write("<br>");
+    }
+    function mostra(msg){
+    
+        document.write(msg);
+        pulaLinha();
+    }	
+    
+    var limite = parseInt(prompt("Ano limite:"));
+    var copa = 1930;
+    
+    while (copa <= limite){
+        mostra(copa);
+        copa = copa + 4;
+    }
+    
+    
+    
+    </script>
