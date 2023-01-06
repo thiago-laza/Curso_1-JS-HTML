@@ -1,6 +1,6 @@
 <h1> Curso 1 de JavaScript e HTML da ALURA </h1>
 
- <p>1_imc.html: calcula o IMC</p>
+ <p>1_imc.html: calcula o IMC
  <p>2_nota.html: calcula a média de 3 notas
  <p>3_adivinha: tenta adivinhar um número gerado aleatoriamente
  <p>4_copa.html: informa os anos das copas até o ano limite informado
